@@ -38,3 +38,6 @@ identifier = "about"
 name = "About"
 url = "/about/"
 weight = 3
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
