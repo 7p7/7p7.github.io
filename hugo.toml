@@ -1,7 +1,7 @@
 baseURL = "https://7p7.github.io/"
 languageCode = "zh-CN"
 title = "Central Yharnam"
-theme = "archie"
+theme = "hugo-theme-tokiwa"
 # copyright = "© Athul"
 pygmentsstyle = "monokai"
 pygmentscodefences = true
@@ -45,3 +45,8 @@ weight = 3
 name = "Tags"
 url = "/tags"
 weight = 4
+
+[module]
+[[module.imports]]
+  path = "hugo-theme-tokiwa"
+
