@@ -1,0 +1,4 @@
+baseURL = 'https://7p7.github.io/'
+languageCode = 'zh-CN'
+title = 'Central Yharnam'
+theme = 'ananke'
