@@ -6,6 +6,10 @@ pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 hasCJKLanguage = true
 languageCode = "cn"
+
+disqusShortname = "7q7"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
 [params]
 mode = "auto"
 useCDN = true
