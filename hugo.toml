@@ -6,6 +6,7 @@ pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 hasCJKLanguage = true
 languageCode = "cn"
+googleAnalytics = "G-3LM3Y0R9NR"     ## or "G-xxxxxxxx" in Google Analytics v4, in hugo v0.82+
 
 disqusShortname = "7q7"
 enableInlineShortcodes = true
