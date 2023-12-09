@@ -1,33 +1,43 @@
 baseURL = "https://7p7.github.io/"
 title = "Central Yharnam"
-theme = "hugo-theme-tokiwa"
-pygmentsstyle = "monokai"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
+theme = "hugo-coder"
+languagecode = "cn"
 hasCJKLanguage = true
-languageCode = "cn"
-googleAnalytics = "G-3LM3Y0R9NR"     ## or "G-xxxxxxxx" in Google Analytics v4, in hugo v0.82+
-
+defaultcontentlanguage = "en"
+googleAnalytics = "G-3LM3Y0R9NR"
 disqusShortname = "7q7"
-enableInlineShortcodes = true
-footnoteReturnLinkContents = "^"
+paginate = 30
+
+[module]
+[[module.imports]]
+path = "hugo-coder"
+
+[markup.highlight]
+style = "dracula"
+
 [params]
+author = "7p7"
+keywords = "blog,developer,personal"
+avatarurl = "images/avatar.jpg"
+faviconSVG = "/img/favicon.svg"
+favicon_32 = "/img/favicon-32x32.png"
+favicon_16 = "/img/favicon-16x16.png"
+since = 2023
+enableTwemoji = true
+colorScheme = "auto"
+hidecolorschemetoggle = false
 mode = "auto"
 useCDN = true
 fuse = true
 math = true
 useChineseFonts = true
 
-[module]
-[[module.imports]]
-path = "hugo-theme-tokiwa"
-
-[menu]
+# Menu links
 [[menu.main]]
-identifier = "post"
-name = "Posts"
-url = "/posts/"
+name = "Blog"
 weight = 1
+url = "posts/"
+
 [[menu.main]]
 name = "Tags"
 url = "/tags/"
@@ -37,12 +47,3 @@ weight = 2
 name = "Categories"
 url = "/categories/"
 weight = 2
-
-[[menu.main]]
-identifier = "about"
-name = "About"
-url = "/about/"
-weight = 3
-
-[outputs]
-home = ["HTML", "RSS", "JSON"]
