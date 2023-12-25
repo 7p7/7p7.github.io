@@ -1,5 +1,5 @@
 +++
-title = 'LeetCode Contest 377D 转换字符串的最小成本 II'
+title = 'LeetCode Contest-377D 转换字符串的最小成本 II'
 date = 2023-12-25T07:29:15+08:00
 tags = [ "graphs", "dp", "floyd" ]
 categories = [ "LeetCode" ]

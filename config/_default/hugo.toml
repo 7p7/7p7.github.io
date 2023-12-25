@@ -6,7 +6,7 @@ hasCJKLanguage = true
 defaultcontentlanguage = "zh-cn"
 googleAnalytics = "G-3LM3Y0R9NR"
 disqusShortname = "7q7"
-paginate = 100
+paginate = 500
 
 [module]
 [[module.imports]]
